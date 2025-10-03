@@ -16,7 +16,7 @@ class Worker:
 @dataclass
 class ScheduleStrategy:
     type: Literal["colocation", "separation", ""] = ""
-    uid: str = ""
+    target: str = ""
 
 
 @dataclass
